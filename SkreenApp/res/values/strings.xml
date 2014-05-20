@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Skreen.me</string>
+    <string name="app_info">Instantly share your screens.\nView a shared screen.\nNo signup. It\'s free, fast and simple.</string>
+    <string name="app_disclaimner"><a href="http://skreen.me/">skreen.me</a> is powered by <a href="http://www.kpoint.com/">kPoint</a> | Incubated at <a href="http://www.gslab.com/">GS Lab</a></string>
+        
+    <!-- Skreenme activity strings -->
+    <string name="dropbox">Dropbox</string>
+    <string name="google_drive">Google Drive</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="linkedin">LinkedIn</string>
+    <string name="flickr">Flickr</string>
+    <string name="picasa">Picasa</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="share">Share</string>
+    <string name="end">End</string>
+    <string name="address_field_hint">Enter an address&#8230;</string>
+    <string name="share_skreen_me_title">Share your skreen</string>
+    <string name="share_skreen_me_subject">View my skreen</string>    
+    <string name="skreem_me_name">Skreen.me</string>
+    <string name="loading">Loading&#8230;</string>
+    <string name="skreen_me_start_failure">Failed to start Skreen.me!</string>
+    <string name="skreen_me_success_message">Your application\'s screen is now being shared. Please invite others to view it.</string>
+    <string name="skreen_me_closed">Skreen.me closed successfully.</string>
+    <string name="skreen_me_interrupted">Skreen.me was interrupted.</string>
+    <string name="skreen_me_access_code">Access Code:</string>
+    <string name="arch_not_supported">Sorry! Your device is not compatible with this application.</string>
+    <string name="contact_us_subject">Skreen.me: Need Help</string>
+    <string name="contact_us_body">Hi, I would like to get in touch with you&#8230;</string>
+    <string name="code">Code:</string>
+    <string name="invite">Invite</string>
+    <string name="share_skreen">Share my screen</string>
+    <string name="view_skreen">View a shared screen</string>
+</resources>

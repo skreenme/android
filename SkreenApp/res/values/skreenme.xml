@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="skreenme_app_key">SKREENME_APP_KEY</string>
+    <string name="skreenme_app_secret">SKREENME_APP_SECRET</string>    
+</resources>

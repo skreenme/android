@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.skreen.skreenapp"
+    android:versionCode="3"
+    android:versionName="2.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+    
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>     
+    <uses-permission android:name="android.permission.INTERNET"/>
+     
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:largeHeap="true">
+        <activity
+            android:name="com.skreen.skreenapp.SkreenAppActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            
+        </activity>
+        
+        <activity            
+            android:name="com.skreen.skreenapp.ShareSkreenActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".SkreenAppActivity"/>
+        
+        <activity            
+            android:name="com.skreen.skreenapp.ViewSkreenActivity"
+            android:label="@string/app_name"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".SkreenAppActivity"/>
+        
+    </application>
+    
+</manifest>
